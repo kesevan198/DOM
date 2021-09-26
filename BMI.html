@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+<body>
+    <div class= "title">
+                 <h1>BMI CALCULATOR</h1>
+    </div>
+    <div class="calcDiv">
+            <div class="BMIdiv">
+                <h3>Calculate Your BMI</h3>
+                <form id="input-div">
+                    <input type="number" placeholder="Enter Your Weight" class="weightInput" id="weightInput" required />
+                    <input type="float" placeholder="Enter Your Height" id="heightInput" required />
+                        <button type="submit" id="enterBtn">Calculate</button>
+                </form>
+                <div class="note-div">
+                    <h5>NOTE:</h5><p>Weight must be in Kilogram <strong  style="font-size: 15px; color: red;">(Kg)</strong><br
+                        >Height must be in meter<strong style="font-size: 15px; color: red;">(m)</strong></p>
+                </div>
+            </div>
+    </div>
+    <div class="calcBMI">
+        <h4> Your calculated BMI: <br><span id="ans">0</span></h4>
+    </div>
+    <div class="massIndex">
+        <h3>Your are HEALTHY</h3>
+    </div>
+    <script src="BMIapp.js"></script>
+</body>
+</html>

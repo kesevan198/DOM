@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-image: linear-gradient( to right, rgba(0, 128, 0, 0.753), rgba(172, 255, 47, 0.719));
+    height: 100%;
+}
+.title{
+    text-align: center;
+    padding-top: 50px;
+    color: whitesmoke;
+}
+#input-div input{
+    width: 200px;
+    padding: 4px;
+    display: block ;
+    border-radius: 3px;
+    border: none;
+    margin: 8px;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+::-webkit-input-placeholder{
+    color: green;
+    font-size: 12px;
+}
+.BMIdiv{
+    background-image: linear-gradient(to left, greenyellow, lightgreen);
+    min-width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.BMIdiv h3{
+    border-bottom: 1px solid black;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#enterBtn{
+    border: none;
+    padding: 3px;
+    border-radius:2px;
+    transition: all 1s ease;
+    margin-top: 10px;
+}
+#enterBtn:hover{
+    background-color: green;
+    color: white;
+}
+.calcDiv{
+    display:flex;
+    justify-content: center;
+}
+.note-div{
+    margin-top: 10px;
+}
+.note-div h5{
+    padding-left: 10px;
+    color: red;
+}
+.note-div p{
+    padding-left: 20px;
+    font-size: 12px;
+    letter-spacing: 0.1mm;
+    font-weight: bold;
+}
+.calcBMI{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.calcBMI h4{
+    color: white;
+    font-size: 20px;
+}
+span {
+    color: rgb(197, 37, 37);
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+}
+.massIndex{
+    font-size: 25px;
+    color:rgba(0, 128, 0, 0.753);
+    background-color: aliceblue;
+    margin-top: 6%;
+    text-align: center;
+    display:none;
+}
+#ans{
+    font-size: 35px;
+    font-family: ' poppins' sans-serif;
+}
